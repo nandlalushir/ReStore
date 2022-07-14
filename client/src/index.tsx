@@ -4,6 +4,10 @@ import { BrowserRouter } from "react-router-dom";
 import "../src/layout/styles.css";
 import App from "./layout/App";
 import reportWebVitals from "./reportWebVitals";
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
+
+export const history = createBrowserHistory();
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
